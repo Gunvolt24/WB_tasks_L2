@@ -181,24 +181,6 @@ func modifySlice(i []string) {
 
 ```bash
 $ go run L2.6/main.go
-main:  [1 2 3] 3 3
-main: 0xc000008030->0xc00002c180
-  modifySlice:  [1 2 3] 3 3
-  modifySlice: 0xc000008078->0xc00002c180
-  modifySlice:  [3 2 3] 3 3
-  modifySlice: 0xc000008078->0xc00002c180
-  modifySlice:  [3 2 3 4] 4 6
-  modifySlice: 0xc000008078->0xc00003c0c0
-  modifySlice:  [3 5 3 4] 4 6
-  modifySlice: 0xc000008078->0xc00003c0c0
-  modifySlice:  [3 5 3 4 6] 5 6
-  modifySlice: 0xc000008078->0xc00003c0c0
-main:  [3 2 3] 3 3
-main: 0xc000008030->0xc00002c180
-[3 2 3]
-
-voron@Andrey MINGW64 /d/Projects/GoProjects/WB_tasks_L2 (main)
-$ go run L2.6/main.go
 main (before):  [1 2 3] 3 3
 main (before): 0xc000008030->0xc00002c180
   modifySlice (i):  [1 2 3] 3 3
@@ -207,7 +189,7 @@ main (before): 0xc000008030->0xc00002c180
   modifySlice (i[0] = 3): 0xc000008078->0xc00002c180
   modifySlice (append 4):  [3 2 3 4] 4 6
   modifySlice (append 4): 0xc000008078->0xc00003c0c0
-  modifySlice: i[1] = 5 [3 5 3 4] 4 6
+  modifySlice: i[1] = 5: [3 5 3 4] 4 6
   modifySlice i[1] = 5: 0xc000008078->0xc00003c0c0
   modifySlice (append 6):  [3 5 3 4 6] 5 6
   modifySlice (append 6): 0xc000008078->0xc00003c0c0
