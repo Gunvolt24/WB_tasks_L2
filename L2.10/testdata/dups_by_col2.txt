@@ -1,0 +1,5 @@
+u1	a	10K
+u2	a	10K
+u3	b	10K
+u4	b	20K
+u5	b	20K

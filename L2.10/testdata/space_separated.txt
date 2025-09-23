@@ -1,0 +1,5 @@
+id2 Jan 512
+id4 Jan 1K
+id1 Feb 1K
+id3 Mar 2K
+id5 Apr 900M
