@@ -1,0 +1,10 @@
+pre1
+pre2
+foo match line
+a1
+a2
+mid
+MATCH here too
+a3
+a4
+tail
